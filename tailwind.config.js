@@ -13,7 +13,7 @@ module.exports = {
         colors: {
           'regal-oi': '#243c5a',
           'title': '#131318',
-          'para': '#FF0080',
+          'para': '#13131899',
         },
       }
     }
