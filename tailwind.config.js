@@ -7,14 +7,4 @@ module.exports = {
     plugins: [],
   }
 
-  module.exports = {
-    theme: {
-      extend: {
-        colors: {
-          'regal-oi': '#243c5a',
-          'title': '#131318',
-          'para': '#13131899',
-        },
-      }
-    }
-  }
+  

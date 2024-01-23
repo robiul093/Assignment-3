@@ -19,7 +19,29 @@
             font-family: 'Manrope', sans-serif;
         }
     </style>
-    <script src="tailwind.config.j"></script>
+    <script src="tailwind.config.js">
+        // module.exports = {
+        //     theme: {
+        //         extend: {
+        //             colors: {
+        //                 'regal-oi': '#243c5a',
+        //                 'title': '#131318',
+        //                 'para': '#13131899',
+        //             },
+        //         }
+        //     }
+        // }
+        /** @type {import('tailwindcss').Config} */
+        module.exports = {
+            theme: {
+                colors: {
+                    // Configure your color palette here
+                    'title': '#131318',
+                    'para': '#13131899',
+                }
+            }
+        }
+    </script>
 </head>
 
 <body class="p-3 max-w-screen-xl mx-auto">
@@ -108,7 +130,7 @@
             </div>
         </section>
 
-        <!-- product section -->
+        <!-- program section -->
 
         <section>
             <div>
@@ -157,9 +179,10 @@
                             </div>
                         </div>
                     </div>
-                            <!-- item 3 -->
+                    <!-- item 3 -->
                     <div>
-                        <div class="hero min-h-96 rounded-2xl overflow-hidden" style="background-image: url(images/4.png);">
+                        <div class="hero min-h-96 rounded-2xl overflow-hidden"
+                            style="background-image: url(images/4.png);">
                             <div class="hero-overlay bg-opacity-60"></div>
                             <div class="hero-content text-neutral-content">
                                 <div class="max-w-md">
@@ -175,6 +198,194 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- product section -->
+
+        <section>
+            <div>
+                <!-- section title -->
+                <div class="text-center lg:w-[600px] mx-auto my-20">
+
+                    <h2 class="text-title text-4xl font-extrabold">Our New Products</h2>
+                    <p class="text-para font-medium mt-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                        turpis placerat dolor. Purus urna in sit nullam proin.
+                    </p>
+                </div>
+
+                <!-- product item cintainer -->
+
+                <div class="grid lg:grid-cols-2 gap-6">
+                    <!-- single product  -->
+                    <div>
+                        <div class="flex lg:flex-row items-center p-2 border-1 border-gray-300 card card-compact bg-base-100 shadow-xl">
+                            <div>
+                                <figure><img src="images/5.png" alt="Shoes" /></figure>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="flex gap-5">
+                                    <div class="flex items-center gap-2"><img src="images/Frame.svg" alt="">5.0</div>
+                                    <div class="flex items-center gap-2"><img src="images/view.svg" alt="">20</div>
+                                    <div class="flex items-center gap-2"><img src="images/heart.svg" alt="">200</div>
+                                </div>
+                                <h2 class="card-title">World Cup Flags Football</h2>
+                                <p class="m-y-3">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                <div class="lg:flex gap-3">
+                                    <p class="text-red-500 font-extrabold text-[18px]">Price - $22.00</p>
+                                    <div class="flex items-center gap-2 my-2">
+                                        <img src="images/delivary.svg" alt="">
+                                        <p>Delivery Fee : Free</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                     <!-- single product  -->
+                     <div>
+                        <div class="flex lg:flex-row items-center p-2 border-1 border-gray-300 card card-compact bg-base-100 shadow-xl">
+                            <div>
+                                <figure><img src="images/6.png" alt="Shoes" /></figure>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="flex gap-5">
+                                    <div class="flex items-center gap-2"><img src="images/Frame.svg" alt="">5.0</div>
+                                    <div class="flex items-center gap-2"><img src="images/view.svg" alt="">20</div>
+                                    <div class="flex items-center gap-2"><img src="images/heart.svg" alt="">200</div>
+                                </div>
+                                <h2 class="card-title">World Cup Flags Football</h2>
+                                <p class="m-y-3">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                <div class="lg:flex gap-3">
+                                    <p class="text-red-500 font-extrabold text-[18px]">Price - $22.00</p>
+                                    <div class="flex items-center gap-2 my-2">
+                                        <img src="images/delivary.svg" alt="">
+                                        <p>Delivery Fee : Free</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                     <!-- single product  -->
+                     <div>
+                        <div class="flex lg:flex-row items-center p-2 border-1 border-gray-300 card card-compact bg-base-100 shadow-xl">
+                            <div>
+                                <figure><img src="images/7.png" alt="Shoes" /></figure>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="flex gap-5">
+                                    <div class="flex items-center gap-2"><img src="images/Frame.svg" alt="">5.0</div>
+                                    <div class="flex items-center gap-2"><img src="images/view.svg" alt="">20</div>
+                                    <div class="flex items-center gap-2"><img src="images/heart.svg" alt="">200</div>
+                                </div>
+                                <h2 class="card-title">World Cup Flags Football</h2>
+                                <p class="m-y-3">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                <div class="lg:flex gap-3">
+                                    <p class="text-red-500 font-extrabold text-[18px]">Price - $22.00</p>
+                                    <div class="flex items-center gap-2 my-2">
+                                        <img src="images/delivary.svg" alt="">
+                                        <p>Delivery Fee : Free</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                     <!-- single product  -->
+                     <div>
+                        <div class="flex lg:flex-row items-center p-2 border-1 border-gray-300 card card-compact bg-base-100 shadow-xl">
+                            <div>
+                                <figure><img src="images/8.png" alt="Shoes" /></figure>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="flex gap-5">
+                                    <div class="flex items-center gap-2"><img src="images/Frame.svg" alt="">5.0</div>
+                                    <div class="flex items-center gap-2"><img src="images/view.svg" alt="">20</div>
+                                    <div class="flex items-center gap-2"><img src="images/heart.svg" alt="">200</div>
+                                </div>
+                                <h2 class="card-title">World Cup Flags Football</h2>
+                                <p class="m-y-3">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                <div class="lg:flex gap-3">
+                                    <p class="text-red-500 font-extrabold text-[18px]">Price - $22.00</p>
+                                    <div class="flex items-center gap-2 my-2">
+                                        <img src="images/delivary.svg" alt="">
+                                        <p>Delivery Fee : Free</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                     <!-- single product  -->
+                     <div>
+                        <div class="flex lg:flex-row items-center p-2 border-1 border-gray-300 card card-compact bg-base-100 shadow-xl">
+                            <div>
+                                <figure><img src="images/9.png" alt="Shoes" /></figure>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="flex gap-5">
+                                    <div class="flex items-center gap-2"><img src="images/Frame.svg" alt="">5.0</div>
+                                    <div class="flex items-center gap-2"><img src="images/view.svg" alt="">20</div>
+                                    <div class="flex items-center gap-2"><img src="images/heart.svg" alt="">200</div>
+                                </div>
+                                <h2 class="card-title">World Cup Flags Football</h2>
+                                <p class="m-y-3">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                <div class="lg:flex gap-3">
+                                    <p class="text-red-500 font-extrabold text-[18px]">Price - $22.00</p>
+                                    <div class="flex items-center gap-2 my-2">
+                                        <img src="images/delivary.svg" alt="">
+                                        <p>Delivery Fee : Free</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                     <!-- single product  -->
+                     <div>
+                        <div class="flex lg:flex-row items-center p-2 border-1 border-gray-300 card card-compact bg-base-100 shadow-xl">
+                            <div>
+                                <figure><img src="images/10.png" alt="Shoes" /></figure>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="flex gap-5">
+                                    <div class="flex items-center gap-2"><img src="images/Frame.svg" alt="">5.0</div>
+                                    <div class="flex items-center gap-2"><img src="images/view.svg" alt="">20</div>
+                                    <div class="flex items-center gap-2"><img src="images/heart.svg" alt="">200</div>
+                                </div>
+                                <h2 class="card-title">World Cup Flags Football</h2>
+                                <p class="m-y-3">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
+                                <div class="lg:flex gap-3">
+                                    <p class="text-red-500 font-extrabold text-[18px]">Price - $22.00</p>
+                                    <div class="flex items-center gap-2 my-2">
+                                        <img src="images/delivary.svg" alt="">
+                                        <p>Delivery Fee : Free</p>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
